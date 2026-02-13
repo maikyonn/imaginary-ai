@@ -20,5 +20,6 @@ export async function generateImage(
 
 	const output = await replicate.run('google/nano-banana-pro', { input });
 
-	return (output as { url: () => string }).url();
+	// FileOutput objects coerce to their URL string via String()
+	return String(output);
 }
