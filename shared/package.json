@@ -1,0 +1,9 @@
+{
+	"name": "@childrenbook/shared",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"exports": {
+		"./types/pipeline": "./types/pipeline.ts"
+	}
+}

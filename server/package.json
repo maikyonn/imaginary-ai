@@ -1,0 +1,21 @@
+{
+	"name": "@childrenbook/server",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "bun --watch src/index.ts"
+	},
+	"dependencies": {
+		"@childrenbook/shared": "workspace:*",
+		"hono": "^4",
+		"inngest": "^3",
+		"openai": "^4",
+		"pg": "^8.18.0",
+		"replicate": "^1"
+	},
+	"devDependencies": {
+		"@types/node": "^22",
+		"@types/pg": "^8.16.0"
+	}
+}
